@@ -1,0 +1,52 @@
+{
+    "BackupConfigurationName": "$HOSTNAME",
+    "DayOfWeekId": null,
+    "Exclusions": [
+        {
+            "FileItemType": "Folder",
+            "FilePath": "/var/log"
+        },
+        {
+            "FileItemType": "Folder",
+            "FilePath": "/var/spool"
+        },
+        {
+            "FileItemType": "Folder",
+            "FilePath": "/var/cache"
+        },
+        {
+            "FileItemType": "Folder",
+            "FilePath": "/var/tmp"
+        },
+        {
+            "FileItemType": "Folder",
+            "FilePath": "/var/lib/mysql"
+        }
+    ],
+    "Frequency": "Daily",
+    "HourInterval": null,
+    "Inclusions": [
+        {
+            "FileItemType": "Folder",
+            "FilePath": "/var"
+        },
+        {
+            "FileItemType": "Folder",
+            "FilePath": "/etc"
+        }
+    ],
+    "IsActive": true,
+    "IsDeleted": false,
+    "IsEncrypted": false,
+    "MachineAgentId": $MACHINEID,
+    "MachineName": "$HOSTNAME",
+    "MissedBackupActionId": 2,
+    "NotifyFailure": true,
+    "NotifyRecipients": "$EMAIL",
+    "NotifySuccess": true,
+    "StartTimeAmPm": "AM",
+    "StartTimeHour": 4,
+    "StartTimeMinute": 15,
+    "TimeZoneId": "Eastern Standard Time",
+    "VersionRetention": 30
+}
